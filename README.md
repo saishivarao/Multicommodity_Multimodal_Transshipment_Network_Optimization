@@ -14,14 +14,25 @@ Porject Title: - Optimizing the flow of Products in Multi-echelon, Multimodal tr
 >> 2. External Processing Agents (EPAs) - Sub-contracted Facilities which convert the crude steeel products to End Priducts
 >> 3. Stockyards (SYDs) - Sub-contracted Facilities which store products for the customer as an on-site inventory
 >> 4. Customers - Final Consumer of the products
-
-> The steel-maker is completely bares the carriage, insurance and freight costs for each custmer order.
-
+>
+> The steel-maker completely bares the carriage, insurance and freight costs for delivering a each custmer order.
+>
 > The Products are moved between facilities using three different modes of transportation - i.e., Railways, Roadways, and Waterways.
-
+>
 > Crude Steel Products at the EPAs, are converted to End Products based on a pre defined conversion rule. The coversion rule is defined in many to many type of matrix, where each End Product can be converted from multiple Crude steel products, and vice-versa.
+>
+> End Products manufactured at the EPA are either directly shipped to the customer or are stores at the stockyard as an on-site inventory for the customer. This routing is determined by the SLA agreement signed with customer, which specifies the precentage of total demand that the customer demands under direct shipment (i.e. Shipment from EPAs) and the percentage of total demand that the customer demands indirectly (i.e. Shipment from Stockyards).
 
-> 
+### Costs in Outbound Logistis network - 
+> Facility Costs -
+>> 1. Variable handling at EPAs - Material Handling Cost, etc.
+>> 2. Fixed cost of EPAs - Per annum Cost of Using a Facility
+>> 3. Product conversion cost of EPAs - Per ton cost of Converting a Crude Steel Product to End Product at an EPA
+>> 4. Variable handling cost of Stockyards - Material Handling Cost, etc.
+>> 5. Fixed cost of Stockyards - Per annum Cost of Using a Facility
+>> 6. Variable handling cost of Ports - Per ton cost of handling products at port
 
-
-The Jupyter notebook file present in the repository contains a Pyomo Code of a MILP problem to optime the multicommodity multimodal transshipment network.
+### Files in the Repo - 
+> Jupyter notebook file - contains a Pyomo Code of a MILP problem to optime the multicommodity multimodal transshipment network.
+> Excel File - Input data file used in Jupyter notebook
+> Image File - Provides image of the Outbound Logistics network of the steel maker
