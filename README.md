@@ -10,7 +10,8 @@ Porject Title: - Optimizing the flow of Products in Multi-echelon, Multimodal tr
 
 ### Network Structure - 
 > ![image.png](https://https://github.com/saishivarao/Multicommodity_Multimodal_Transshipment_Network_Optimization/blob/main/image.png)
->The outbound logistics network of the steel-maker consists of four stages, including the customer. These stages are - 
+>
+> The outbound logistics network of the steel-maker consists of four stages, including the customer. These stages are - 
 >> 1. Mills - Facilities which produce Crude Steel Products
 >> 2. External Processing Agents (EPAs) - Sub-contracted Facilities which convert the crude steeel products to End Priducts
 >> 3. Stockyards (SYDs) - Sub-contracted Facilities which store products for the customer as an on-site inventory
