@@ -2,12 +2,26 @@
 A MILP optimization problem, for optimizing a multicommodity, multimodal, transshipment network
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Supply chain management has become one of the crucial focus areas in many businesses lately. It is important that the businesses understand the importance of having an efficient SCM strategy, as it allows them to have good maturity levels in their processes and meet customer demands even in tough times. Supply chain Management consists of making decisions on three broad subcategories, 1) supply chain design, 2) supply chain planning and 3) supply chain sourcing. This report focuses on leveraging the power of analytics and operations research to assist managers in making supply chain design decisions.
+This repository contains files from my internship project at one of India's largest steel-maker. 
+Porject Title: - Optimizing the flow of Products in Multi-echelon, Multimodal transshipment network.
 
-"Place, transportation mode, price, and quantity" are the four “rights”, which a manager must address to make supply chain design decisions. “Right place”, refers to having a right facility, with right processing capacity, at a right location. “Right transportation mode” refers to the mode of transportation used for transporting goods between two network facilities. “Right Price” for a product, is the function of its supply chain costs. “Right Quantity” refers to the amount of goods that must be processed, stored, and distributed form each facility is the supply chain. Supply chain decisions involve the selection of “right facilities” to perform “right processes” in “right quantities” of products, supplied to customers using “right mode of transport”, to incur “least costs”.
+### Introduction - 
+> The objective of this project was to develop an optimal design of outbound logistics network for a major steel-maker in India, The outbound logistics network of the steel maker had multiple products, which were to be routed from various facilities to multiple customer locations in the countries, using multiple modes of tansportation. To optimize the design of outbound logistics network, we developed an MILP optimization algorithm with an objective to minimize the cost-to-serve a customer order. The Problem is solved using Pyomo library in Python.
 
-This  notebook file on “Multicommodity  flow  optimization  model  for  multimodal transshipment network”, exemplifies the application of Network Flow Optimization algorithm to maximize the benefits in outbound logistics network of a mojor steel manufacturer in India. A Network flow optimization model makes use of forecasted demand data to identify patterns for risks and opportunities within the supply chain of the organization, and guides decision-makers to anticipate specific future events and to take necessary action.
+### Network Structure - 
+> The outbound logistics network of the steel-maker consists of four stages, including the customer. These stages are - 
+>> 1. Mills - Facilities which produce Crude Steel Products
+>> 2. External Processing Agents (EPAs) - Sub-contracted Facilities which convert the crude steeel products to End Priducts
+>> 3. Stockyards (SYDs) - Sub-contracted Facilities which store products for the customer as an on-site inventory
+>> 4. Customers - Final Consumer of the products
 
-Network optimization model assist a user in making three broad supply chain design decisions, they are, 1) resource acquisition in a supply chain, 2) structural decisions in a supply chain, and 3) Operational efficiency decisions in a supply chain. Resource acquisition decisions are focused on addressing the “right place” aspects of supply chain design. Structural decisions focus on providing the products at a right “right price” by using “right mode of transportation” in the network. Operational efficiency decisions focus on the “right quantity” of goods that must be routed, processed, stored, and distributed from each facility in the network.
+> The steel-maker is completely bares the carriage, insurance and freight costs for each custmer order.
 
-An open source Python library, Pyomo, is used for optimization purpose in this project. 
+> The Products are moved between facilities using three different modes of transportation - i.e., Railways, Roadways, and Waterways.
+
+> Crude Steel Products at the EPAs, are converted to End Products based on a pre defined conversion rule. The coversion rule is defined in many to many type of matrix, where each End Product can be converted from multiple Crude steel products, and vice-versa.
+
+> 
+
+
+The Jupyter notebook file present in the repository contains a Pyomo Code of a MILP problem to optime the multicommodity multimodal transshipment network.
