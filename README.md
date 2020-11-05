@@ -35,6 +35,6 @@ Porject Title: - Optimizing the flow of Products in Multi-echelon, Multimodal tr
 >> 6. Variable handling cost of Ports - Per ton cost of handling products at port
 
 ### Files in the Repo - 
-> Jupyter notebook file - contains a Pyomo Code of a MILP problem to optime the multicommodity multimodal transshipment network.
-> Excel File - Input data file used in Jupyter notebook
-> Image File - Provides image of the Outbound Logistics network of the steel maker
+> 1. Jupyter notebook file - contains a Pyomo Code of a MILP problem to optime the multicommodity multimodal transshipment network.
+> 2. Excel File - Input data file used in Jupyter notebook
+> 3. Image File - Provides image of the Outbound Logistics network of the steel maker
