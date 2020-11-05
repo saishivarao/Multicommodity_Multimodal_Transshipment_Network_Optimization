@@ -9,7 +9,7 @@ Porject Title: - Optimizing the flow of Products in Multi-echelon, Multimodal tr
 > The objective of this project was to develop an optimal design of outbound logistics network for a major steel-maker in India, The outbound logistics network of the steel maker had multiple products, which were to be routed from various facilities to multiple customer locations in the countries, using multiple modes of tansportation. To optimize the design of outbound logistics network, we developed an MILP optimization algorithm with an objective to minimize the cost-to-serve a customer order. The Problem is solved using Pyomo library in Python.
 
 ### Network Structure - 
-> ![Network Flow Diagram](https://https://github.com/saishivarao/Multicommodity_Multimodal_Transshipment_Network_Optimization/blob/main/image.png?raw=true)
+> ![Network Flow Diagram](https://https://github.com/saishivarao/Multicommodity_Multimodal_Transshipment_Network_Optimization/blob/main/image.png)
 >The outbound logistics network of the steel-maker consists of four stages, including the customer. These stages are - 
 >> 1. Mills - Facilities which produce Crude Steel Products
 >> 2. External Processing Agents (EPAs) - Sub-contracted Facilities which convert the crude steeel products to End Priducts
