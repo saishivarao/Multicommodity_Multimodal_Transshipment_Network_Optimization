@@ -1,5 +1,5 @@
 # Multicommodity_Multimodal_Transshipment_Network_Optimization
-A MILP optimization problem, for optimizing a multicommodity, multimodal, transshipment network
+A MILP optimization problem for optimizing a multicommodity, multi-echelon logistics network
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This repository contains files from my internship project at one of India's largest steel-maker. 
