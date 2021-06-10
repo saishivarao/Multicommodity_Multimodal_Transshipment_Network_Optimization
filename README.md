@@ -1,7 +1,7 @@
 A MILP optimization problem for optimizing a multicommodity, multi-echelon logistics network
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Porject Title: - Optimizing the flow of Products in Multi-echelon, Multicommodity transsportation network.
+Porject Title: - Optimizing the flow of Products in Multi-echelon, Multicommodity logistics network.
 
 ### Introduction - 
 > The objective of this project  to optimize the flow of products in a multi-echelon manufacturing & distribution network. The network below represents flow of multiple steel products, which are transported - from two manufacturing facilities to multiple customer locations, through set of transshipment nodes - using multiple modes of tansportation. 
