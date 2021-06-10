@@ -26,14 +26,6 @@ Porject Title: - Optimizing the flow of Products in Multi-echelon, Multicommodit
 >
 > End Products manufactured at the EPA are either directly shipped to the customer or they are stored at the stockyard as an on-site inventory for the customer. This routing is determined by the SLA agreement signed with customer, which specifies the precentage of total demand that the customer wishes to procure directly (i.e. Shipment from EPAs) and the percentage of total demand that the customer wishes to procure indirectly (i.e. Shipment from Stockyards).
 
-### Costs in Outbound Logistis network - 
-> Facility Costs -
->> 1. Variable handling at EPAs - Material Handling Cost, etc.
->> 2. Fixed cost of EPAs - Per annum Cost of Using a Facility
->> 3. Product conversion cost of EPAs - Per ton cost of Converting a Crude Steel Product to End Product at an EPA
->> 4. Variable handling cost of Stockyards - Material Handling Cost, etc.
->> 5. Fixed cost of Stockyards - Per annum Cost of Using a Facility
->> 6. Variable handling cost of Ports - Per ton cost of handling products at port
 
 ### Files in the Repo - 
 > 1. Jupyter notebook file - contains a Pyomo Code of the optimization problem
