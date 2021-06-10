@@ -5,9 +5,8 @@ A MILP optimization problem for optimizing a multicommodity, multi-echelon logis
 Porject Title: - Optimizing the flow of Products in Multi-echelon, Multicommodity transsportation network.
 
 ### Introduction - 
-> The objective of this project  to develop an optimal design for outbound logistics network of a major steel-maker in India. The network represents flow of multiple steel products, which are transported - from two manufacturing facilities to multiple customer locations across the country - using multiple modes of tansportation. 
+> The objective of this project  to optimize the flow of products in a multi-echelon manufacturing & distribution network. The network below represents flow of multiple steel products, which are transported - from two manufacturing facilities to multiple customer locations, through set of transshipment nodes - using multiple modes of tansportation. 
 > 
-> To optimize the flow of material in the network, I developed an MILP optimization algorithm with an objective to minimize the cost-to-serve a customer order. The Problem is solved using Pyomo library in Python.
 
 ### Network Structure - 
 > ![Network Structure Diagram](https://github.com/saishivarao/Multicommodity_Multimodal_Transshipment_Network_Optimization/blob/main/image.png)
@@ -26,6 +25,8 @@ Porject Title: - Optimizing the flow of Products in Multi-echelon, Multicommodit
 >
 > End Products manufactured at the EPA are either directly shipped to the customer or they are stored at the stockyard as an on-site inventory for the customer. This routing is determined by the SLA agreement signed with customer, which specifies the precentage of total demand that the customer wishes to procure directly (i.e. Shipment from EPAs) and the percentage of total demand that the customer wishes to procure indirectly (i.e. Shipment from Stockyards).
 
+
+To optimize the flow of material in the network, I developed an MILP optimization algorithm with an objective to minimize the cost-to-serve a customer order. The Problem is solved using Pyomo library in Python.
 
 ### Files in the Repo - 
 > 1. Jupyter notebook file - contains a Pyomo Code of the optimization problem
